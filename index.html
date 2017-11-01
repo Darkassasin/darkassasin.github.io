@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shreeson Shrestha</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+		
+        body{
+          height:100vh;
+        }
+        a{
+          color:#C0C0C0;
+        }
+        a:hover{
+          color: #fff;
+        }
+        
+        .side-link{
+          margin-left: 10px;
+          font-size: 20px;
+          color: #C0C0C0;
+        }
+        .side-link:hover{
+			color:white;
+			background:black;
+        }
+        .title{
+          color: #20B2AA;
+        }
+        .description{
+          color: #fff;
+        }
+        .form-control{
+          padding-top: 10px;
+          padding-bottom: 10px;
+		  width:800px;
+		  
+        }
+
+        p{
+          word-spacing: 5;
+        }
+        .img-thumb{
+          height:50px;
+          width: 50px;
+		  margin-right:15px;
+        }
+        rs:hover{
+          transition:1s;
+          -ms-transform: translate(50px,100px); /* IE 9 */
+          -webkit-transform: translate(50px,100px); /* Safari */
+          transform: translate(50px,100px); /* Standard syntax */
+        }
+        tr{
+          border: 2px;
+          border-color: #3b5998;
+        }
+        .info-title{
+          color: #20B2AA;
+        }
+        .parallax {
+        background-image: url('work.jpg');
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .front-wrapper{
+        height: 100vh;
+      }
+      .info{
+        position: absolute;
+        right: 0px;
+        width: 250px;
+        right: 150px;
+        padding-top: 100px;
+      }
+      .social-logo{
+        display: block;
+        background-color: inherit;
+      }
+      .social-logo:hover{
+        transition: 0.5s ease;
+        margin-left: 10px;
+      }
+      .social{
+        padding-top: 50px;
+      }
+      h4{
+        text-align: justify;
+        text-justify: inter-word;
+      }
+	  
+	  .front-wrapper{
+		background-image: url('design.jpg');
+		background-width:cover;
+        height: 100%;
+	  }
+	  .bottom-wrapper{
+		background-image: url('design.jpg');
+		background-width:cover;
+        height: 150%;
+	  }
+	  
+    </style>
+  </head>
+  <body>
+
+<div class="front-wrapper">
+    <div class="social">
+      <span class="col-lg-2">
+        <div class="social-logo">
+          <a href="https://www.facebook.com/shreeson.shrestha" target="_blank">
+            <img src="fb.png"  width="40" height="40">
+            <label class="social-label" for="facebook" style="color:#3b5998;">Facebook</label>
+          </a>
+        </div>
+        <div class="social-logo">
+          <a href="https://www.github.com/darkassasin" target="_blank">
+            <img src="git.ico"  width="40" height="40">
+            <label class="social-label" value="github" style="color:#fff;">Github</label>
+          </a>
+        </div>
+        <div class="social-logo">
+          <a href="https://www.linkedin.com/in/shreeson-shrestha-87534a96/" target="_blank"><img src="linkedin.png" width="40" height="40">
+            <label class="social-label" value="linkedin" style="color:#0077B5;" visible="false">LinkedIn</label>
+          </a>
+        </div>
+        <div class="social-logo">
+          <a href="http://stackoverflow.com/users/7498469/crazyprogrammer" target="_blank">
+            <img src="stack.png" width="40" height="40"><label class="social-label" value="stack" style="color:#fff;" visible="false">Stack Overflow</label>
+          </a>
+        </div>
+		<div class="social-logo">
+          <a href="https://www.instagram.com/shreeson/" target="_blank">
+            <img src="instagram.png" width="40" height="40"><label class="social-label" value="stack" style="color:#fff;" visible="false">Instagram</label>
+          </a>
+        </div>
+      </span>
+    </div>
+    <div class="col-lg-8">
+        <div class="title"  id="introduction"><strong>Bit About me!!</strong></div>
+        <div class="description">
+          <h4>
+            <i>An ambitious web developer who have a interest to code with recent technologies.
+            I have been working in Java framework like Spring-MVC framework and different JavaScript frameworks and libraries like
+            node.js, jQuery.
+            </i>
+          </h4>
+        </div>
+        <div class="title"><strong><h3>Personal Information</h3></strong></div>
+        <div class="description">
+          <div><label for="Name">Shreeson Shrestha</label></div>
+          <div><label for="Birthday">D.O.B.:18 NOV 1994</label></div>
+          <div><label for="email">E-mail:shreesonstha@gmail.com</label></div>
+          <div><label for="email">shreesonstha@hotmail.com</label></div>
+        </div>
+        <h4 class="autoText" style="font-size: 50px; color: #7CFC00; margin-top: 0em;"></h4>
+    </div>
+    <div class="col=lg-2">
+      <div class="info">
+        <img src="profile.jpg" class="img-circle" style="border: 2px solid #fff;" width="250" height="250" align="right">
+         <div>
+           <label for="name" class="description"><h3><strong>Shreeson Shrestha</strong></h3></label>
+           <label class="description"><h4>Technical Enthusiast</h4></label>
+         </div>
+       </div>
+     </div>
+</div>
+<div class="parallax"></div>
+<div class="bottom-wrapper">
+   <div class="wrapper">
+			<div class="sidebar-wrapper col-lg-4">
+			  <div class="side-link">
+				<a href="#introduction"><label for="Intro">Introduction</label></a>
+			  </div>
+			  <div class="side-link">
+				<a href="https://github.com/Darkassasin" target="_blank" id="projects"><label for="Projects">Projects</label></a>
+			  </div>
+			  <div class="side-link">
+			  <a href="https://drive.google.com/file/d/0B0T53s6qSB1FVDRNVVdNSXNCUGM/view?usp=sharing" target="_blank" id="resume"><label for="Resume">Resume</label></a>
+			  </div>
+			  
+			  <div class="side-link">
+			  <a href="#contactme"><label for="Contact">Contact</label></a>
+			  </div>
+			</div>
+			<div class="skills-wrapper col-lg-8" align="center">
+    <h1 class="title">TECHNICAL SKILLS</h1>
+    <table  border="1">
+      <tr>
+        <img src="java.png" data-toggle="tooltip" data-placement="left" title="Java" class="img-thumb">
+      </tr>
+      <tr>
+        <img src="spring.png" data-toggle="tooltip" data-placement="top" title="Spring-framework" class="img-thumb">
+      </tr>
+      <tr>
+        <img src="mysql.png" data-toggle="tooltip" data-placement="bottom" title="MySQL"class="img-thumb">
+      </tr>
+      <tr>
+        <img src="html.png" data-toggle="tooltip" data-placement="top" title="HTML"class="img-thumb">
+      </tr>
+	   <tr>
+        <img src="jquery.png" data-toggle="tooltip" data-placement="top" title="jQuery"class="img-thumb">
+      </tr>
+      <tr>
+        <img src="JS.png" data-toggle="tooltip" data-placement="bottom" title="JavaScript" style="width:90px; height:50px;">
+      </tr>
+      <tr>
+        <img src="git.png" data-toggle="tooltip" data-placement="bottom" title="GIT"class="img-thumb">
+      </tr>
+	  <tr>
+        <img src="nodejs.png" data-toggle="tooltip" data-placement="right"title="Node.js"class="img-thumb">
+      </tr>
+    </table>
+	</div>
+	</div>
+	<h1 class="title" style:"margin-top:20px;">CONTACT ME</h1>
+	<div  id="contactme" align="center">
+		<form  method="POST" id="mG61Hd" action="https://docs.google.com/forms/d/e/1FAIpQLSc8AwMJpgJ1RLEgYBwnvJeprZ-VG-JY5IEAzAryvv2oMcNqjA/formResponse?embedded=true">
+			<div class="form-group">
+			  <input type="text" class="form-control" id="name" placeholder="Name" name="entry.2005620554" required>
+			</div>
+			<div class="form-group">
+			  <input type="email" class="form-control" id="Email" placeholder="Email" name="entry.2061648607" aria-describedby="emailHelp" required>
+			  <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+			  <textarea rows="8" class="form-control" id="message" placeholder="Message" name="entry.1166974658" required></textarea>
+			</div>
+			<button type="submit" class="btn btn-success" style="border-radius:15px;" value="send">Send</button>
+		</form>
+    </div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+    var txt = 'A Web Application Developer'.split('');
+
+    var delay = 100;
+
+    function type() {
+    for (i = 0; i < txt.length; i++) {
+	
+    setTimeout(function () {
+            $('.autoText').append(txt.shift());
+        }, delay * i);
+		
+    }
+    setTimeout(function(){
+        $('.autoText').text('');
+        type(txt =  'A Web Application Developer'.split(''));
+    }, delay * i + 1000);
+    }
+
+    type();
+    </script>
+	<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();  
+});
+</script>
+
+  </body>
+</html>
